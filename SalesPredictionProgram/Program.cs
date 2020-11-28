@@ -48,7 +48,8 @@ namespace SalesPredictionProgram
 
 
             string[] newsPaperName = { "PMNews", "Guardian", "Punch", "The Sun" };
-
+            
+            //Declaration  of weekly sales quantity
             int[] PMNewsWeeklyQuantity = { 23, 20, 18, 14 };
             int[] guardianWeeklyQuantity = { 10, 32, 27, 21 };
             int[] punchWeeklyQuantity = { 12, 20, 35, 19 };
@@ -60,6 +61,8 @@ namespace SalesPredictionProgram
             double punchWeeklyQuantityAverage = Queryable.Average(punchWeeklyQuantity.AsQueryable());
             double theSunWeeklyQuantityAverage = Queryable.Average(theSunWeeklyQuantity.AsQueryable());
 
+
+            //Declaration of weekly price quantity
             double[] PMNewsWeeklyPrice = { 324.56, 300, 315.28, 340 };
             double[] guardianWeeklyPrice = { 324.56, 300, 315.28, 340 };
             double[] punchWeeklyPrice = { 245.35, 220, 265.5, 290.14 };
